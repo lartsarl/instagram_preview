@@ -1,0 +1,10 @@
+{
+  "name": "feed-studio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check app.js"
+  },
+  "type": "module"
+}
